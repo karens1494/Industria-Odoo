@@ -11,7 +11,7 @@
                             <field name="responsible_id"/>
                             <field name="description"/>
                         </group>
-                                              <notebook>
+                    <notebook>
                             <page string="Description">
                                 <field name="description"/>
                             </page>
@@ -21,10 +21,7 @@
                                         <field name="name"/>
                                         <field name="instructor_id"/>
                                     </tree>
-                                </field>
-                            <page string="About">
-                                This is an example of notebooks
-                            </page>
+                                       </field>
                         </notebook>
                     </sheet>
                 </form>
