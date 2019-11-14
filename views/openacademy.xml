@@ -2,7 +2,7 @@
 <odoo>
           <record model="ir.ui.view" id="course_form_view">
             <field name="name">course.form</field>
-            <field name="model">openacademy.course</field>
+            <field name="model">open_academy.course</field>
             <field name="arch" type="xml">
                 <form string="Course Form">
                     <sheet>
