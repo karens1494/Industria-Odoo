@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
-   class Course(models.Model)
+class Course(models.Model)
      _name = 'open_academy.course'
      _description= "OpenAcademy Courses"
      responsible_id = fields.Many2one('res.users',
